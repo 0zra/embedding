@@ -1,1 +1,44 @@
-/* Komentar */
+/* Header*/
+header{
+  border-bottom: 5px solid whitesmoke;
+  height: 55px;
+}
+ .small-icon {
+   height: 25px;
+   margin: 15px 0 0 25px;
+ }
+.right {
+  float: right;
+  margin-right: 15px;
+}
+.signin {
+  font: Roboto, Arial, sans-serif;
+  color: rgb(39, 147, 230);
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 20px;
+}
+input{
+  width: 25%;
+  margin: 5px 0 10px 20%;
+}
+
+/*main*/
+section{
+  width: 1200px;
+  height: 2000px;
+  margin: auto;
+  border: 5px solid black;
+}
+.popis {
+  float: right;
+  width: 30%;
+  height: 100%;
+  border: 2px solid blue;
+}
+.main{
+  float: left;
+  width: 65%;
+  height: 100%;
+  border: 2px solid red;
+}
