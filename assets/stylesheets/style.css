@@ -28,17 +28,30 @@ section{
   width: 1200px;
   height: 2000px;
   margin: auto;
-  border: 5px solid black;
+  
 }
 .popis {
   float: right;
   width: 30%;
   height: 100%;
-  border: 2px solid blue;
+
 }
 .main{
   float: left;
   width: 65%;
   height: 100%;
-  border: 2px solid red;
+
+}
+
+/**popis videa*/
+li {
+  width: 90%;
+  float: right;
+  height: 100px;
+
+}
+.slikica{
+  float: left;
+  height: 90px;
+
 }
